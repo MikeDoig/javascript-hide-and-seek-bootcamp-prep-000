@@ -5,7 +5,10 @@ function getFirstSelector(selector) {
    return document.querySelector('#nested .target');
  }
  function increaseRankBy(n) {
-   document.querySelector
+   let rank = document.querySelector('.rank');
+   for (i=0; i<rank.length; i++) {
+     for (let a=0; a<document.querySelector('.rank').length)
+   }
  }
  
  
