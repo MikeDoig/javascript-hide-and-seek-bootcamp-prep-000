@@ -16,18 +16,10 @@ function increaseRankBy(n) {
   }
 }
  
-// function deepestChild() {
-//   const deep = document.getElementById('grand-node');
-//   for (let i=0; i<deep.length; i++) {
-//     deep[i].innerHTML = (i+1);
-//   }
-// }
- 
- 
  function deepestChild() {
    let current = document.getElementById('grand-node');
    let next = current.children[0];
-   while (next) {
+   while (next===true) {
      current = next;
      next = current.children[0];
    }
