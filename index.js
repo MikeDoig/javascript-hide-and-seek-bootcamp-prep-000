@@ -11,7 +11,7 @@ function getFirstSelector(selector) {
 //   }
 // }
 function increaseRankBy(n) {
-  const rank = document.querySelectorAll('.rank');
+  let rank = document.querySelectorAll('.rank');
 
   for (let i=0; i < rank.length; i++) {
     let child = rank[i].child;
