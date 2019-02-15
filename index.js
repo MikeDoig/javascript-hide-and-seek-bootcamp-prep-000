@@ -23,7 +23,7 @@ function getFirstSelector(selector) {
 // }
  
 function increaseRankBy(n) {
-  const rank = document.querySelectorAll('.rank-list');
+  const rank = document.querySelectorAll('.ranked-list');
 
   for (let i = 0, l = rank.length; i < l; i++) {
     let child = rank[i].child;
