@@ -25,7 +25,7 @@ function getFirstSelector(selector) {
 function increaseRankBy(n) {
   const rank = document.querySelectorAll('.ranked-list');
 
-  for (let i = 0, l = rankedList.length; i < l; i++) {
+  for (let i = 0, l = rank.length; i < l; i++) {
     let child = rank[i].child;
 
     for (let j = 0, k = child.length; j < k; j++) {
