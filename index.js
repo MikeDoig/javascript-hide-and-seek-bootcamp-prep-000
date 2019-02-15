@@ -23,13 +23,13 @@ function getFirstSelector(selector) {
 // }
  
 function increaseRankBy(n) {
-  const rank = document.querySelectorAll('.ranked-list');
+  const rank = document.querySelectorAll('.rank');
 
   for (let i = 0, l = rank.length; i < l; i++) {
-    let children = rank[i].children;
+    let child = rank[i].child;
 
-    for (let j = 0, k = children.length; j < k; j++) {
-      children[j].innerHTML = parseInt(children[j].innerHTML) + n;
+    for (let j = 0, k = child.length; j < k; j++) {
+      child[j].innerHTML = parseInt(child[j].innerHTML) + n;
     }
   }
 }
