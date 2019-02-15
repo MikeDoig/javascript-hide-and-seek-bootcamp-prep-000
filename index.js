@@ -21,7 +21,7 @@ function increaseRankBy(n) {
    let next = current.children[2];
    while (next) {
      current = next;
-     next = current.children[2];
+     next = current.children[0];
    }
    return current;
  }
