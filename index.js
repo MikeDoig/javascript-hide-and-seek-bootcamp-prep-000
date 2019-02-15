@@ -28,6 +28,7 @@ function increaseRankBy(n) {
    let current = document.getElementById('grand-node');
    let next = current.children[0];
    while (current) {
-     if
+     current = current.children[0];
    }
+   return current;
  }
