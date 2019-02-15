@@ -7,6 +7,16 @@ function getFirstSelector(selector) {
  function increaseRankBy(n) {
    
  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  function deepestChild() {
    
  }
