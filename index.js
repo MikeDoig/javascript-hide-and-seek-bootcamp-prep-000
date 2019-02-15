@@ -14,10 +14,10 @@ function getFirstSelector(selector) {
   let rank = document.querySelectorAll('.rank');
 
   for (let i=0; i < rank.length; i++) {
-    let children = rank[i].children;
+    let child = rank[i].child;
 
-    for (let j = 0, k = children.length; j < k; j++) {
-      children[j].innerHTML = parseInt(children[j].innerHTML) + n;
+    for (let x = 0; x < child.length; x++) {
+      child[x].innerHTML = parseInt(child[x].innerHTML) + n;
     }
   }
 }
